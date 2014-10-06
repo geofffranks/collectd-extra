@@ -10,6 +10,7 @@ Build.bat
 /Makefile
 /Makefile.old
 /MANIFEST.bak
+/MANIFEST
 /META.yml
 /META.json
 /MYMETA.*

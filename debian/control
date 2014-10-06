@@ -1,0 +1,27 @@
+Source: libcollectd-extra-perl
+Maintainer: Geoff Franks <geoff.franks@gmail.com>
+Section: perl
+Priority: optional
+Homepage: http://github.com/geofffranks/collectd-extra
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 8),
+               collectd,
+               libtest-collectd-plugins-perl,
+               libtest-deep-perl,
+               libtest-simple-perl,
+               libtest-mockmodule-perl,
+               libyaml-libyaml-perl,
+               perl,
+               perl-base (>= 5.14.2),
+               perl-modules
+
+
+Package: libcollectd-extra-perl
+Description: Additional Collectd Plugins for Linux systems
+Architecture: all
+Depends: collectd,
+         libyaml-libyaml-perl,
+         perl,
+         perl-base (>= 5.14.2),
+         perl-modules,
+         ${misc:Depends}
